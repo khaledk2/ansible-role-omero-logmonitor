@@ -1,4 +1,5 @@
 ---
+
 # tasks file for roles/omero-logmonitor
 - name: Include pre-tasks.yml
   ansible.builtin.import_tasks: pre-tasks.yml
