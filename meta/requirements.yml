@@ -1,3 +1,9 @@
 ---
-- src: ome.omero_common
-- src: ome.python3_virtualenv
+# - src: ome.omero_common
+- name: omero_common
+  src: https://github.com/pwalczysko/ansible-role-omero-common
+  version: update-framework
+# - src: ome.python3_virtualenv
+- name: python3_virtualenv
+  src: https://github.com/khaledk2/ansible-role-python3-virtualenv
+  version: update_ansible_python
