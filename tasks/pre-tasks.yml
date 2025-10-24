@@ -3,8 +3,8 @@
 # undeclared variable failure
 - name: omero log monitor | Import ome.omero_common role
   ansible.builtin.import_role:
-    name: ome.omero_common
+    name: omero_common
 
 - name: omero log monitor  | Include ome.python3_virtualenv
   ansible.builtin.import_role:
-    name: ome.python3_virtualenv
+    name: python3_virtualenv
