@@ -6,7 +6,7 @@
 
 - name: system packages | install dependencies
   become: true
-  ansible.builtin.yum:
+  ansible.builtin.dnf:
     name: git
     state: present
 
